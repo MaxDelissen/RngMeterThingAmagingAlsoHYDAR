@@ -1,0 +1,17 @@
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\bin\Debug\net7.0-windows\HydarRngMeterCalculator.exe
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\bin\Debug\net7.0-windows\HydarRngMeterCalculator.deps.json
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\bin\Debug\net7.0-windows\HydarRngMeterCalculator.runtimeconfig.json
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\bin\Debug\net7.0-windows\HydarRngMeterCalculator.dll
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\bin\Debug\net7.0-windows\HydarRngMeterCalculator.pdb
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.csproj.AssemblyReference.cache
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\RngMeterThingAmagingAlsoHYDAR.Calculator.resources
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.csproj.GenerateResource.cache
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.AssemblyInfoInputs.cache
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.AssemblyInfo.cs
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.csproj.CoreCompileInputs.cache
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.dll
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\refint\HydarRngMeterCalculator.dll
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.pdb
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\HydarRngMeterCalculator.genruntimeconfig.cache
+C:\Users\nieks\source\repos\RngMeterThingAmagingAlsoHYDAR\RngMeterThingAmagingAlsoHYDAR\obj\Debug\net7.0-windows\ref\HydarRngMeterCalculator.dll
