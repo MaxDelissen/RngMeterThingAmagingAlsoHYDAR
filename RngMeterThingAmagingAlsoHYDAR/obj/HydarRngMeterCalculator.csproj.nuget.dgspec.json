@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Github\\RngMeterThingAmagingAlsoHYDAR\\RngMeterThingAmagingAlsoHYDAR\\HydarRngMeterCalculator.csproj",
         "projectName": "HydarRngMeterCalculator",
         "projectPath": "C:\\Github\\RngMeterThingAmagingAlsoHYDAR\\RngMeterThingAmagingAlsoHYDAR\\HydarRngMeterCalculator.csproj",
-        "packagesPath": "C:\\Users\\nieks\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\socks\\.nuget\\packages\\",
         "outputPath": "C:\\Github\\RngMeterThingAmagingAlsoHYDAR\\RngMeterThingAmagingAlsoHYDAR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nieks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\socks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
