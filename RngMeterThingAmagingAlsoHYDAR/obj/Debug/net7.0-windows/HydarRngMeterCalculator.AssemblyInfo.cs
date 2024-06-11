@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HydarRngMeterCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e2907f28a0bbc1ccbd5c448ff147a9d9bb8e02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a478f1a13c7c9acbabc534b6e61438c5fcb35022")]
 [assembly: System.Reflection.AssemblyProductAttribute("HydarRngMeterCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HydarRngMeterCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

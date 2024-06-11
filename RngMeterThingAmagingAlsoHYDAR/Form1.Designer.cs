@@ -40,11 +40,25 @@
 			DropChanceNumericUpDown = new NumericUpDown();
 			CalculateButton = new Button();
 			OutcomeLabel = new Label();
+			RerollCheckBox = new CheckBox();
+			label6 = new Label();
+			UsingWeightOutcomeLabel = new Label();
+			CalculateUsingWeightButton = new Button();
+			TotalWeightNumericUpDown = new NumericUpDown();
+			ItemWeightNumericUpDown = new NumericUpDown();
+			label8 = new Label();
+			ItemWeightLabel = new Label();
+			rNGItByWeightLabel = new Label();
+			rNGItByWeightButton = new Button();
+			rNGItLabel = new Label();
+			rNGItButton = new Button();
 			((System.ComponentModel.ISupportInitialize)MeterNowNumericUpDown).BeginInit();
 			((System.ComponentModel.ISupportInitialize)MeterMaxNumericUpDown).BeginInit();
 			((System.ComponentModel.ISupportInitialize)MeterPerRunNumericUpDown).BeginInit();
 			((System.ComponentModel.ISupportInitialize)RunsNumericUpDown).BeginInit();
 			((System.ComponentModel.ISupportInitialize)DropChanceNumericUpDown).BeginInit();
+			((System.ComponentModel.ISupportInitialize)TotalWeightNumericUpDown).BeginInit();
+			((System.ComponentModel.ISupportInitialize)ItemWeightNumericUpDown).BeginInit();
 			SuspendLayout();
 			// 
 			// label1
@@ -94,7 +108,6 @@
 			// 
 			// MeterNowNumericUpDown
 			// 
-			MeterNowNumericUpDown.Enabled = false;
 			MeterNowNumericUpDown.Location = new Point(123, 12);
 			MeterNowNumericUpDown.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
 			MeterNowNumericUpDown.Name = "MeterNowNumericUpDown";
@@ -124,7 +137,7 @@
 			// RunsNumericUpDown
 			// 
 			RunsNumericUpDown.Location = new Point(123, 99);
-			RunsNumericUpDown.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
+			RunsNumericUpDown.Maximum = new decimal(new int[] { 1000000000, 0, 0, 0 });
 			RunsNumericUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
 			RunsNumericUpDown.Name = "RunsNumericUpDown";
 			RunsNumericUpDown.Size = new Size(120, 23);
@@ -143,7 +156,7 @@
 			// 
 			// CalculateButton
 			// 
-			CalculateButton.Location = new Point(12, 157);
+			CalculateButton.Location = new Point(12, 175);
 			CalculateButton.Name = "CalculateButton";
 			CalculateButton.Size = new Size(82, 23);
 			CalculateButton.TabIndex = 10;
@@ -154,16 +167,136 @@
 			// OutcomeLabel
 			// 
 			OutcomeLabel.AutoSize = true;
-			OutcomeLabel.Location = new Point(100, 161);
+			OutcomeLabel.Location = new Point(100, 179);
 			OutcomeLabel.Name = "OutcomeLabel";
 			OutcomeLabel.Size = new Size(0, 15);
 			OutcomeLabel.TabIndex = 11;
+			// 
+			// RerollCheckBox
+			// 
+			RerollCheckBox.AutoSize = true;
+			RerollCheckBox.Location = new Point(123, 157);
+			RerollCheckBox.Name = "RerollCheckBox";
+			RerollCheckBox.Size = new Size(15, 14);
+			RerollCheckBox.TabIndex = 12;
+			RerollCheckBox.UseVisualStyleBackColor = true;
+			// 
+			// label6
+			// 
+			label6.AutoSize = true;
+			label6.Location = new Point(12, 157);
+			label6.Name = "label6";
+			label6.Size = new Size(42, 15);
+			label6.TabIndex = 13;
+			label6.Text = "Reroll?";
+			// 
+			// UsingWeightOutcomeLabel
+			// 
+			UsingWeightOutcomeLabel.AutoSize = true;
+			UsingWeightOutcomeLabel.Location = new Point(387, 179);
+			UsingWeightOutcomeLabel.Name = "UsingWeightOutcomeLabel";
+			UsingWeightOutcomeLabel.Size = new Size(0, 15);
+			UsingWeightOutcomeLabel.TabIndex = 15;
+			// 
+			// CalculateUsingWeightButton
+			// 
+			CalculateUsingWeightButton.Location = new Point(255, 175);
+			CalculateUsingWeightButton.Name = "CalculateUsingWeightButton";
+			CalculateUsingWeightButton.Size = new Size(126, 23);
+			CalculateUsingWeightButton.TabIndex = 14;
+			CalculateUsingWeightButton.Text = "Calculate by weight!";
+			CalculateUsingWeightButton.UseVisualStyleBackColor = true;
+			CalculateUsingWeightButton.Click += CalculateUsingWeightButton_Click;
+			// 
+			// TotalWeightNumericUpDown
+			// 
+			TotalWeightNumericUpDown.Location = new Point(366, 128);
+			TotalWeightNumericUpDown.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
+			TotalWeightNumericUpDown.Name = "TotalWeightNumericUpDown";
+			TotalWeightNumericUpDown.Size = new Size(120, 23);
+			TotalWeightNumericUpDown.TabIndex = 19;
+			TotalWeightNumericUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
+			// 
+			// ItemWeightNumericUpDown
+			// 
+			ItemWeightNumericUpDown.Location = new Point(366, 99);
+			ItemWeightNumericUpDown.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
+			ItemWeightNumericUpDown.Name = "ItemWeightNumericUpDown";
+			ItemWeightNumericUpDown.Size = new Size(120, 23);
+			ItemWeightNumericUpDown.TabIndex = 18;
+			ItemWeightNumericUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
+			// 
+			// label8
+			// 
+			label8.AutoSize = true;
+			label8.Location = new Point(255, 130);
+			label8.Name = "label8";
+			label8.Size = new Size(73, 15);
+			label8.TabIndex = 17;
+			label8.Text = "Total Weight";
+			// 
+			// ItemWeightLabel
+			// 
+			ItemWeightLabel.AutoSize = true;
+			ItemWeightLabel.Location = new Point(255, 101);
+			ItemWeightLabel.Name = "ItemWeightLabel";
+			ItemWeightLabel.Size = new Size(72, 15);
+			ItemWeightLabel.TabIndex = 16;
+			ItemWeightLabel.Text = "Item Weight";
+			// 
+			// rNGItByWeightLabel
+			// 
+			rNGItByWeightLabel.AutoSize = true;
+			rNGItByWeightLabel.Location = new Point(387, 208);
+			rNGItByWeightLabel.Name = "rNGItByWeightLabel";
+			rNGItByWeightLabel.Size = new Size(0, 15);
+			rNGItByWeightLabel.TabIndex = 23;
+			// 
+			// rNGItByWeightButton
+			// 
+			rNGItByWeightButton.Location = new Point(255, 204);
+			rNGItByWeightButton.Name = "rNGItByWeightButton";
+			rNGItByWeightButton.Size = new Size(126, 23);
+			rNGItByWeightButton.TabIndex = 22;
+			rNGItByWeightButton.Text = "RNG it by Weight!";
+			rNGItByWeightButton.UseVisualStyleBackColor = true;
+			rNGItByWeightButton.Click += rNGItByWeightButton_Click;
+			// 
+			// rNGItLabel
+			// 
+			rNGItLabel.AutoSize = true;
+			rNGItLabel.Location = new Point(100, 208);
+			rNGItLabel.Name = "rNGItLabel";
+			rNGItLabel.Size = new Size(0, 15);
+			rNGItLabel.TabIndex = 21;
+			// 
+			// rNGItButton
+			// 
+			rNGItButton.Enabled = false;
+			rNGItButton.Location = new Point(12, 204);
+			rNGItButton.Name = "rNGItButton";
+			rNGItButton.Size = new Size(82, 23);
+			rNGItButton.TabIndex = 20;
+			rNGItButton.Text = "RNG it!";
+			rNGItButton.UseVisualStyleBackColor = true;
 			// 
 			// Calculator
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(253, 188);
+			ClientSize = new Size(498, 237);
+			Controls.Add(rNGItByWeightLabel);
+			Controls.Add(rNGItByWeightButton);
+			Controls.Add(rNGItLabel);
+			Controls.Add(rNGItButton);
+			Controls.Add(TotalWeightNumericUpDown);
+			Controls.Add(ItemWeightNumericUpDown);
+			Controls.Add(label8);
+			Controls.Add(ItemWeightLabel);
+			Controls.Add(UsingWeightOutcomeLabel);
+			Controls.Add(CalculateUsingWeightButton);
+			Controls.Add(label6);
+			Controls.Add(RerollCheckBox);
 			Controls.Add(OutcomeLabel);
 			Controls.Add(CalculateButton);
 			Controls.Add(DropChanceNumericUpDown);
@@ -183,6 +316,8 @@
 			((System.ComponentModel.ISupportInitialize)MeterPerRunNumericUpDown).EndInit();
 			((System.ComponentModel.ISupportInitialize)RunsNumericUpDown).EndInit();
 			((System.ComponentModel.ISupportInitialize)DropChanceNumericUpDown).EndInit();
+			((System.ComponentModel.ISupportInitialize)TotalWeightNumericUpDown).EndInit();
+			((System.ComponentModel.ISupportInitialize)ItemWeightNumericUpDown).EndInit();
 			ResumeLayout(false);
 			PerformLayout();
 		}
@@ -201,5 +336,17 @@
 		private NumericUpDown DropChanceNumericUpDown;
 		private Button CalculateButton;
 		private Label OutcomeLabel;
+		private CheckBox RerollCheckBox;
+		private Label label6;
+		private Label UsingWeightOutcomeLabel;
+		private Button CalculateUsingWeightButton;
+		private NumericUpDown TotalWeightNumericUpDown;
+		private NumericUpDown ItemWeightNumericUpDown;
+		private Label label8;
+		private Label ItemWeightLabel;
+		private Label rNGItByWeightLabel;
+		private Button rNGItByWeightButton;
+		private Label rNGItLabel;
+		private Button rNGItButton;
 	}
 }

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYWtzI1tNHEZaKvTRaUJm2UNXWKlIX/1rbDtgvAFcG4nwSaJL1UkjclmC5PuIcm1nbsrin54ivw4OO8pauGnsA==",
+  "dgSpecHash": "c0zfA5X+b+THWJy26gyM0UfFy8LMZ7a51k/7xnJMPxpqJ9tSff5Tkd6iBpfKRgjT+qUQiCdLln2v1fqZDgJgyg==",
   "success": true,
   "projectFilePath": "C:\\Github\\RngMeterThingAmagingAlsoHYDAR\\RngMeterThingAmagingAlsoHYDAR\\HydarRngMeterCalculator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\socks\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\socks\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\socks\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\socks\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

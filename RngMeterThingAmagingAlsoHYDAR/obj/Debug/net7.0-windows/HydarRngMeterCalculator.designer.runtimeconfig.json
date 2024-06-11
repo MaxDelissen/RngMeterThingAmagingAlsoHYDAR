@@ -12,10 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\nieks\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\nieks\\.nuget\\packages"
+      "C:\\Users\\socks\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\socks\\.nuget\\packages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
